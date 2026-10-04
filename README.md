@@ -3,16 +3,25 @@
 作業時間シート・添付用RAシート・工事通知書を読み込んで、KY用紙と工事看板の Excel を作成する Windows アプリの**配布用ページ**です。
 （このリポジトリには配布ファイルだけを置いています。ソースコードはありません。）
 
-## ダウンロード
+## ダウンロード・インストール
 
-👉 **[最新版をダウンロード](https://github.com/GHHTKN/kojishorui-releases/releases/latest/download/KojiShorui-win-x64.zip)**
+👉 **[インストーラーをダウンロード（KojiShorui-Setup.exe）](https://github.com/GHHTKN/kojishorui-releases/releases/latest/download/KojiShorui-Setup.exe)**
 
-1. 上のリンクから `KojiShorui-win-x64.zip` をダウンロード
-2. zip を右クリック →「すべて展開」
-3. 中の `KojiShorui.exe` をダブルクリック
+1. 上のリンクから `KojiShorui-Setup.exe` をダウンロード
+2. ダウンロードしたファイルをダブルクリック
+3. 画面の案内に沿って「次へ」→「インストール」
 
-インストールは不要です（Windows 10 / 11 の 64bit）。
-初めて起動したときに「WindowsによってPCが保護されました」と出た場合は、「詳細情報」→「実行」を押してください。
+- 管理者権限は不要です（Windows 10 / 11 の 64bit）。
+- スタートメニューとデスクトップに「工事書類作成」が作られます。
+- 「WindowsによってPCが保護されました」と出た場合は、「詳細情報」→「実行」を押してください。
+- アンインストールは Windows の「設定 → アプリ」から行えます（会社名などの設定は残ります）。
+
+<details>
+<summary>インストールせずに使いたい場合（フォルダ版）</summary>
+
+[KojiShorui-win-x64.zip](https://github.com/GHHTKN/kojishorui-releases/releases/latest/download/KojiShorui-win-x64.zip) をダウンロードして展開し、中の `KojiShorui.exe` をダブルクリックしてください。
+
+</details>
 
 ## アップデート
 
